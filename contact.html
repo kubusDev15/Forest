@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./dist/css/main-min.css">
+    <link rel="stylesheet" href="./dist/css/contact-min.css">
+</head>
+
+<body>
+
+    <nav>
+    <div class="wrapper">
+        <a href='./index.html' class="logo">
+            <img src="./dist/img/tree.svg" class="logo-icon">
+            <h1 class="logo-title">Forest</h1>
+        </a>
+        <div class="nav-links">
+            <a href="./index.html#" class="nav-link nav-link-home">Home</a>
+            <a href="./contact.html" class="nav-link nav-link-contact">Kontakt</a>
+        </div>
+        <button class="burger-btn">
+            <img src="./dist/img/burger.svg">
+        </button>
+        <div class="mobile-nav hide-mobile-nav">
+            <a href="./index.html#" class="mobile-nav-link mobile-nav-link-home">Home</a>
+            <a href="./contact.html" class="mobile-nav-link mobile-nav-link-contact">Kontakt</a>
+        </div>
+    </div>
+</nav>
+
+    <main>
+        <div class="wrapper contact-wrapper">
+            <h2>Kontakt</h2>
+            <form class="contact-form">
+                <div class="box">
+                    <label for="username">Imię i nazwisko: </label>
+                    <input type="text" id="username">
+                </div>
+                <div class="box">
+                    <label for="email">Adres e-mail: </label>
+                    <input type="email" id="email">
+                </div>
+                <div class="box">
+                    <label for="tel">Numer telefonu: </label>
+                    <input type="tel" id="tel">
+                </div>
+                <div class="box">
+                    <label for="message">Wiadomość: </label>
+                    <textarea id="message"></textarea>
+                </div>
+                <button class="clear">Wyczyść</button>
+                <button class="send">Wyślij</button>
+            </form>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.8967437131982!2d19.89025797708812!3d50.08822007152527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a326d015c3b%3A0x47a12cd367a1f34e!2sMcDonald&#39;s!5e0!3m2!1sen!2spl!4v1722166094402!5m2!1sen!2spl"
+                width="90%" height="400" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+
+    <footer>
+    <div class="wrapper footer-wrapper">
+        <div class="footer-logo">
+            <img src="./dist/img/tree.svg" class="logo-icon">
+            <h1 class="logo-title">Forest</h1>
+        </div>
+        <div class="footer-boxes">
+            <div class="footer-box footer-about">
+                <h3>O nas</h3>
+                <a href="#">Historia</a>
+                <a href="#">Parki</a>
+                <a href="#">Opinie</a>
+            </div>
+            <div class="footer-box footer-company">
+                <h3>Nasza firma</h3>
+                <a href="#">Praca</a>
+                <a href="#">Kadry</a>
+                <a href="#">Zarząd</a>
+            </div>
+            <div class="footer-box footer-docs">
+                <h3>Dokumenty</h3>
+                <a href="#">Wnioski</a>
+                <a href="#">Rezerwacje</a>
+            </div>
+        </div>
+    </div>
+    <p class="footer-copyright">&copy;<span class="footer-date"></span> Forest Group Company Ltd.</p>
+</footer>
+
+
+    <script src="./dist/js/script-min.js"></script>
+</body>
+
+</html>
